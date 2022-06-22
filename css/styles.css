@@ -26,9 +26,12 @@ body {
 
 /* Кнопка родитель */
 .button {
-    font-family: inherit;
+    padding: 6px 22px;   
     color: var(--text-primary-color);
+    text-align: center;
     background-color: var(--bg-team-color);
+    border: 0ch;
+    border-radius: 4px;
     cursor: pointer;
 }
 
