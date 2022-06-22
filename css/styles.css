@@ -22,6 +22,8 @@ body {
 /* Сброс стилей */
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Кнопка родитель */
@@ -43,6 +45,13 @@ body {
     color: var(--text-primary-color);
 }
 
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 
 /* Главная страница */
 /* Верхняя линия */
@@ -54,7 +63,7 @@ body {
     text-decoration: none;
 }
 
-.header>.logo {
+.header .logo {
     color: var(--text-logo-header-color);
 }
 
@@ -100,9 +109,13 @@ body {
 /* Герой */
 .hero {
     background-color: var(--bg-hero-color);
+    text-align: center;
 }
 
 .title.hero {
+    margin: 0 auto 30px;
+    /* width: 696px;
+    height: 120px; */
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -123,6 +136,8 @@ body {
 
 /* Особенности */
 .features .featur-text {
+    margin-top: 0;
+    margin-bottom: 5;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -130,6 +145,8 @@ body {
 }
 
 .features .featur {
+    margin-top: 0;
+    margin-bottom: 10;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
