@@ -1,11 +1,3 @@
-/* Глобальний border-box */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-
 /* Объявление глобальных переменных */
 :root {
     --bg-body-color: #fff;
