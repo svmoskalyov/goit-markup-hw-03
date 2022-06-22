@@ -21,9 +21,9 @@ body {
 
 /* Сброс стилей */
 .list {
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 /* Кнопка родитель */
@@ -39,6 +39,8 @@ body {
 
 /* Заголовок родитель */
 .title {
+    margin: 0;
+    padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -50,6 +52,10 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 94px;
 }
 
 
@@ -162,6 +168,10 @@ body {
     background-color: var(--bg-team-color);
 }
 
+.team .title {
+    padding-top: 94px;
+}
+
 .team .specialist {
     font-weight: 500;
     font-size: 16px;
@@ -189,7 +199,7 @@ body {
     text-decoration: none;
 }
 
-.footer>.logo,
+.footer > .logo,
 .address-list .location {
     color: var(--text-white-color);
 }
