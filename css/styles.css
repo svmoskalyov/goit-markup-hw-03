@@ -28,9 +28,8 @@ body {
 
 /* Кнопка родитель */
 .button {
-    padding: 6px 22px;   
+    padding: 6px 22px;
     color: var(--text-primary-color);
-    text-align: center;
     background-color: var(--bg-team-color);
     border: 0ch;
     border-radius: 4px;
@@ -39,29 +38,38 @@ body {
 
 /* Заголовок родитель */
 .title {
-    margin: 0;
-    padding-bottom: 50px;
+    /* margin: 0; */
+    /* padding-bottom: 50px; */
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     color: var(--text-primary-color);
 }
 
-.container {
+/* .container {
+    margin-left: auto;
+    margin-rigth: auto;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-}
 
-.section {
+    outline: 2px solid tomato;
+} */ 
+
+/* .section {
     padding-top: 94px;
     padding-left: 94px;
-}
+} */
 
 
 /* Главная страница */
 /* Верхняя линия */
+.header {
+    /* outline: 2px solid tomato; */
+    background-color: tomato;
+    /* display: inline-block; */
+}
+
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -115,11 +123,23 @@ body {
 
 /* Герой */
 .hero {
-    background-color: var(--bg-hero-color);
+    /* background-color: var(--bg-hero-color); */
     text-align: center;
+    background-color: teal;
 }
 
+/* .hero-title {
+
+}
+
+.hero-button {
+
+} */
+
 .title.hero {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-bottom: 50px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -140,8 +160,8 @@ body {
 
 /* Особенности */
 .features .featur-text {
-    margin-top: 0;
-    margin-bottom: 5;
+    /* margin-top: 0; */
+    /* margin-bottom: 5; */
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -149,8 +169,8 @@ body {
 }
 
 .features .featur {
-    margin-top: 0;
-    margin-bottom: 10;
+    /* margin-top: 0; */
+    /* margin-bottom: 10; */
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -166,9 +186,9 @@ body {
     background-color: var(--bg-team-color);
 }
 
-.team .title {
+/* .team .title {
     padding-top: 94px;
-}
+} */
 
 .team .specialist {
     font-weight: 500;
