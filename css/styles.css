@@ -65,10 +65,10 @@ body {
     outline: 2px solid tomato;
 } */
 
-/* .section {
-    padding-top: 94px;
-    padding-left: 94px;
-} */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 /* Главная страница */
 /* Верхняя линия */
@@ -175,7 +175,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-secondory-color);
-
 
   background-color: yellowgreen;
 }
