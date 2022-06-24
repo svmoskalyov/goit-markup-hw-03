@@ -28,7 +28,6 @@ body {
 
 /* Кнопка родитель */
 .button {
-    padding: 6px 22px;
     color: var(--text-primary-color);
     background-color: var(--bg-team-color);
     border: 0ch;
@@ -38,8 +37,7 @@ body {
 
 /* Заголовок родитель */
 .title {
-    /* margin: 0; */
-    /* padding-bottom: 50px; */
+    margin: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -141,10 +139,8 @@ body {
 
 } */
 
-.title.hero {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-bottom: 50px;
+.hero.title {
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -153,7 +149,8 @@ body {
     text-transform: uppercase;
 }
 
-.button.hero {
+.hero.button {
+    padding: 10px 32px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -244,7 +241,12 @@ body {
 
 /* Портфолио */
 /* Фильтры на карточки */
+/* .filtres {
+    margin-bottom: 50px;
+} */
+
 .button.default {
+    padding: 6px 22px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
