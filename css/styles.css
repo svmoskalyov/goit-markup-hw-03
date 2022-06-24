@@ -43,6 +43,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   color: var(--text-primary-color);
+  text-align: center;
 }
 
 /* Лого родитель */
@@ -175,31 +176,41 @@ body {
   line-height: 1.71;
   color: var(--text-secondory-color);
 
-  /* outline: 2px solid yellowgreen; */
+
   background-color: yellowgreen;
 }
 
 /* Чем мы занимаемся */
+.wemake {
+  background-color: yellow;
+}
 
 /* Наша команда */
 .team {
-  background-color: var(--bg-team-color);
+  /* background-color: var(--bg-team-color); */
+  text-align: center;
+
+  background-color: tomato;
 }
 
-/* .team .title {
-    padding-top: 94px;
-} */
-
-.team .specialist {
+.team-list .specialist {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+
+  background-color: chartreuse;
 }
 
-.team .position {
+.team-list .position {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   color: var(--text-secondory-color);
+
+  background-color: cyan;
 }
 
 /* Подвал */
