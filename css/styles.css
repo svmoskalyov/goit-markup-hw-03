@@ -55,15 +55,15 @@ body {
   text-decoration: none;
 }
 
-/* .container {
-    margin-left: auto;
-    margin-rigth: auto;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
 
-    outline: 2px solid tomato;
-} */
+  outline: 2px solid black;
+}
 
 .section {
   padding-top: 94px;
