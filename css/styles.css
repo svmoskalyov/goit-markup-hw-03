@@ -249,10 +249,11 @@ body {
 
 /* Портфолио */
 /* Фильтры на карточки */
+.portfolio {
+  background-color: olive;
+}
 .filtres {
-    margin-bottom: 34px;
-
-    background-color: olive;
+  margin-bottom: 34px;
 }
 
 .button.default {
@@ -260,6 +261,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+
+  outline: 2px solid red;
 }
 
 .button.default:hover,
@@ -269,13 +272,13 @@ body {
 }
 
 /* Карточки */
-.cards .link {
+.card-link {
   color: var(--text-primary-color);
   text-decoration: none;
 }
 
-.cards .link:hover,
-.cards .link:focus {
+.card-link:hover,
+.card-link:focus {
   background-color: var(--accent-color);
 }
 
