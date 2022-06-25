@@ -250,6 +250,20 @@ body {
   background-color: yellow;
 }
 
+.wemake-list {
+  display: flex;
+}
+
+.wemake-list .item {
+  width: calc((100% - 60px) / 3);
+
+  outline: 2px solid red;
+}
+
+.wemake-list .item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
 /* Наша команда */
 .team {
   /* background-color: var(--bg-team-color); */
