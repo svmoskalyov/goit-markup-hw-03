@@ -204,6 +204,24 @@ body {
   background-color: cornflowerblue;
 }
 
+.featur-list {
+  display: flex;
+}
+
+.featur-list .item {
+  width: calc((100% - 90px) / 4);
+
+  outline: 2px solid red;
+}
+
+.featur-list .item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
+.features-title {
+  display: none;
+}
+
 .features .featur-title {
   margin-top: 0;
   margin-bottom: 10px;
