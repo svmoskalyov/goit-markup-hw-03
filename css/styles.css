@@ -475,8 +475,12 @@ margin-bottom: 30px;
   background-color: var(--accent-color);
 }
 
+.card-link > .img {
+  margin-bottom: 20px;
+}
+
 .cards .project {
-  margin-top: 20px;
+  margin-top: 0;
   margin-right: 24px;
   margin-bottom: 4px;
   margin-left: 24px;
