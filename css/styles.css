@@ -299,12 +299,18 @@ body {
   background-color: olive;
 }
 
-.portfolio .title {
+.portfolio > .title {
   display: none;
 }
 
-.filtres {
-  margin-bottom: 34px;
+.container > .filtres {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.filtres > .item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .button.default {
