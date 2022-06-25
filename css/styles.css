@@ -267,9 +267,29 @@ body {
 /* Наша команда */
 .team {
   /* background-color: var(--bg-team-color); */
-  text-align: center;
+  /* text-align: center; */
 
   background-color: tomato;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-list .item {
+  width: calc((100% - 90px) / 4);
+  text-align: center;
+
+  outline: 2px solid blue;
+}
+
+.team-list .item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
+.team-list .img {
+  display: block;
+  margin-bottom: 30px;
 }
 
 .team-list .specialist {
