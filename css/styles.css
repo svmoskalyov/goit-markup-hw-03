@@ -314,15 +314,33 @@ body {
 
 /* Подвал */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--bg-hero-color);
 }
 
 .footer.logo {
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 20px;
   color: var(--text-white-color);
+
+  background-color: blueviolet;
 }
 
 .footer.logo-style {
+  padding-top: 0;
+  padding-bottom: 0;
   color: var(--accent-color);
+
+  background-color: coral;
+}
+
+.address .item:not(:last-child) {
+  margin-bottom: 9px;
+
+  background-color: red;
 }
 
 .address .location,
@@ -332,10 +350,14 @@ body {
   line-height: 1.71;
   color: var(--link-footer-color);
   text-decoration: none;
+
+  background-color: teal;
 }
 
 .address .location {
   color: var(--text-white-color);
+
+  background-color: green;
 }
 
 .address .link:hover,
