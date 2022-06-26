@@ -1,4 +1,15 @@
 /* Объявление глобальных переменных */
+/* 
+  Фон тела страницы --bg-body-color: #fff;
+  Фон "героя" --bg-hero-color: #2f303a;
+  Фон "наша команда" --bg-team-color: #f5f4fa;
+  Цвет основного текста --text-primary-color: #212121;
+  Цвет вторичного текста --text-secondory-color: #757575;
+  Цвет текста логотипа в хедере --text-logo-header-color: #000;
+  Цвет текста белый (логотип в футере, заголовок "героя") --text-white-color: #fff;
+  Цвет сылок в футере --link-footer-color: rgba(255, 255, 255, 0.6);
+  Цвет акцента --accent-color: #2196f3;
+   */
 :root {
   --bg-body-color: #fff;
   --bg-hero-color: #2f303a;
@@ -81,7 +92,7 @@ body {
   align-items: center;
 }
 
-/* Лого */
+/* Логотип */
 .header.logo {
   color: var(--text-logo-header-color);
 }
@@ -167,6 +178,7 @@ body {
   padding-right: 32px;
   padding-bottom: 10px;
   padding-left: 32px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
