@@ -372,9 +372,19 @@ body {
 
 .card-link {
   display: block;
-  padding-bottom: 20px;
   color: var(--text-primary-color);
   text-decoration: none;
+}
+
+.card-border {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+
+  border-right: 1px solid var(--bg-team-color);
+  border-bottom: 1px solid var(--bg-team-color);
+  border-left: 1px solid var(--bg-team-color);
 }
 
 .card-link:hover,
@@ -382,15 +392,14 @@ body {
   background-color: var(--accent-color);
 }
 
-.card-link > .img {
-  margin-bottom: 20px;
+.card-link .img {
+  display: block;
 }
 
 .cards .project {
   margin-top: 0;
-  margin-right: 24px;
-  margin-bottom: 4px;
-  margin-left: 24px;
+  margin-bottom: 0;
+  padding-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -399,9 +408,7 @@ body {
 
 .cards .category {
   margin-top: 0;
-  margin-right: 24px;
   margin-bottom: 0;
-  margin-left: 24px;
   font-size: 16px;
   line-height: 1.88;
   color: var(--text-secondory-color);
@@ -410,7 +417,7 @@ body {
 .cards .description {
   display: none;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.88;
   color: var(--text-secondory-color);
