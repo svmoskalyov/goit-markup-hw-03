@@ -72,7 +72,12 @@ body {
 
 /* Главная страница */
 /* Верхняя линия */
+.hat {
+  border-bottom: 1px solid var(--bg-team-color);
+}
+
 .container.topline {
+  /* border-bottom: 5px solid red; */
   display: flex;
   align-items: center;
 }
