@@ -160,13 +160,22 @@ body {
 }
 
 /* Герой */
+.hero.section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero {
   background-color: var(--bg-hero-color);
   text-align: center;
 }
 
 .hero.title {
+  max-width: 696px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -261,7 +270,11 @@ body {
 
 .team-list .img {
   display: block;
-  margin-bottom: 30px;
+}
+
+.team-list .about {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-list .specialist {
@@ -274,7 +287,7 @@ body {
 
 .team-list .position {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.19;
   color: var(--text-secondory-color);
